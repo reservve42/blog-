@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog em Ruby</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Meu Blog</h1>
+  <ul>
+    <% @posts.each do |post| %>
+      <li>
+        <a href="/post/<%= post['id'] %>"><%= post['title'] %></a>
+      </li>
+    <% end %>
+  </ul>
+</body>
+</html>
+

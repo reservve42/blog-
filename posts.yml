@@ -1,0 +1,16 @@
+- id: 1
+  title: "Understanding Sinatra: A Lightweight Ruby Framework for Real Projects"
+  content: >
+    In this post, we explore the core concepts of Sinatra — a minimalist Ruby web framework that excels in small APIs and rapid prototypes. You'll learn how to structure projects properly and avoid common pitfalls when scaling simple apps.
+
+- id: 2
+  title: "Why Developers Underestimate Initial Architecture Decisions"
+  content: >
+    Early technical decisions often go unnoticed until they become blockers. This article outlines the long-term impact of overlooking modular design, route organization, and dependency management from day one.
+
+- id: 3
+  title: "YAML in the Real World: Best Practices and Common Traps"
+  content: >
+    YAML is widely used for configuration, mock data, and environment settings — but it’s not without risks. We’ll go through production-ready examples, dos and don’ts, and how to validate your YAML files to prevent silent failures.
+
+
